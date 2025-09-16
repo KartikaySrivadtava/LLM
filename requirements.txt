@@ -1,23 +1,10 @@
-# Core web framework
 streamlit==1.38.0
-
-# Env file handling
 python-dotenv==1.0.1
-
-# Data handling
 pandas==2.2.2
 openpyxl==3.1.2
-
-# LangChain + Azure OpenAI
 langchain==0.2.7
 langchain-openai==0.1.7
-
-# Vector DB
 chromadb==0.5.0
-
-# Azure SDKs (sometimes needed for auth)
+tiktoken==0.7.0
 azure-identity==1.17.1
 azure-core==1.30.2
-
-# Misc helpers
-tiktoken==0.7.0
